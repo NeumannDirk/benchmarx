@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<TraceMetamodel:TraceModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TraceMetamodel="TraceMetamodel" name="families323">
+  <traceLinks name="FamilyRegister2PersonRegister_1" trule="FamilyRegister2PersonRegister" id="1">
+    <rightLinkEnd name="FamilyRegister" type="FamilyRegister">
+      <traceElement href="results\jtl\target\families323.xmi#ASPid_1_/-familiest113_213_/101-familiest119_1125_/1013"/>
+    </rightLinkEnd>
+    <leftLinkEnd name="PersonRegister" type="PersonRegister">
+      <traceElement href="results\jtl\persons32.xmi#ASPid_1_/-personst2_102_/101-personst3_104_/103-personst4_106_/105-personst5_108_/107-personst6_1010_/109-personst7_1012_/1011-personst8_1014_/1013"/>
+    </leftLinkEnd>
+  </traceLinks>
+  <traceLinks name="FamilyMember2Male_2" trule="FamilyMember2Male" id="2">
+    <rightLinkEnd name="Family.FamilyMember" type="FamilyMember">
+      <traceElement href="results\jtl\target\families323.xmi#ASPid_113_//@persons.0-fathert2_213_/101-name_2129_//@persons.02017-familiesInverset1_3423_/101"/>
+    </rightLinkEnd>
+    <leftLinkEnd name="Male" type="Male">
+      <traceElement href="results\jtl\persons32.xmi#ASPid_2_//@persons.0-name_2018_//@persons.02017-birthday_2020_//@persons.02019-personsInverset1_2016_//@persons.02015"/>
+    </leftLinkEnd>
+  </traceLinks>
+  <traceLinks name="FamilyMember2Male_3" trule="FamilyMember2Male" id="3">
+    <rightLinkEnd name="FamilyMember" type="FamilyMember">
+      <traceElement href="results\jtl\target\families323.xmi#ASPid_3_//@persons.1-name_3024_//@persons.13023-sonsInverset119_3425_/103"/>
+    </rightLinkEnd>
+    <leftLinkEnd name="Male" type="Male">
+      <traceElement href="results\jtl\persons32.xmi#ASPid_3_//@persons.1-name_3024_//@persons.13023-birthday_3026_//@persons.13025-personsInverset1_3022_//@persons.13021"/>
+    </leftLinkEnd>
+  </traceLinks>
+  <traceLinks name="FamilyMember2Female_4" trule="FamilyMember2Female" id="4">
+    <rightLinkEnd name="FamilyMember" type="FamilyMember">
+      <traceElement href="results\jtl\target\families323.xmi#ASPid_4_//@persons.2-name_4042_//@persons.24041-daughtersInverset119_3427_/105"/>
+    </rightLinkEnd>
+    <leftLinkEnd name="Female" type="Female">
+      <traceElement href="results\jtl\persons32.xmi#ASPid_4_//@persons.2-name_4042_//@persons.24041-birthday_4044_//@persons.24043-personsInverset1_4040_//@persons.24039"/>
+    </leftLinkEnd>
+  </traceLinks>
+  <traceLinks name="FamilyMember2Male_5" trule="FamilyMember2Male" id="5">
+    <rightLinkEnd name="FamilyMember" type="FamilyMember">
+      <traceElement href="results\jtl\target\families323.xmi#ASPid_5_//@persons.3-name_5030_//@persons.35029-sonsInverset119_3429_/107"/>
+    </rightLinkEnd>
+    <leftLinkEnd name="Male" type="Male">
+      <traceElement href="results\jtl\persons32.xmi#ASPid_5_//@persons.3-name_5030_//@persons.35029-birthday_5032_//@persons.35031-personsInverset1_5028_//@persons.35027"/>
+    </leftLinkEnd>
+  </traceLinks>
+  <traceLinks name="FamilyMember2Female_6" trule="FamilyMember2Female" id="6">
+    <rightLinkEnd name="FamilyMember" type="FamilyMember">
+      <traceElement href="results\jtl\target\families323.xmi#ASPid_6_//@persons.4-name_6048_//@persons.46047-motherInverset119_4331_/109"/>
+    </rightLinkEnd>
+    <leftLinkEnd name="Female" type="Female">
+      <traceElement href="results\jtl\persons32.xmi#ASPid_6_//@persons.4-name_6048_//@persons.46047-birthday_6050_//@persons.46049-personsInverset1_6046_//@persons.46045"/>
+    </leftLinkEnd>
+  </traceLinks>
+  <traceLinks name="FamilyMember2Female_7" trule="FamilyMember2Female" id="7">
+    <rightLinkEnd name="FamilyMember" type="FamilyMember">
+      <traceElement href="results\jtl\target\families323.xmi#ASPid_7_//@persons.5-name_7054_//@persons.57053-daughtersInverset119_4333_/1011"/>
+    </rightLinkEnd>
+    <leftLinkEnd name="Female" type="Female">
+      <traceElement href="results\jtl\persons32.xmi#ASPid_7_//@persons.5-name_7054_//@persons.57053-birthday_7056_//@persons.57055-personsInverset1_7052_//@persons.57051"/>
+    </leftLinkEnd>
+  </traceLinks>
+  <traceLinks name="FamilyMember2Male_8" trule="FamilyMember2Male" id="8">
+    <rightLinkEnd name="Family.FamilyMember" type="FamilyMember">
+      <traceElement href="results\jtl\target\families323.xmi#ASPid_119_//@persons.6-fathert8_1125_/1013-mothert6_1121_/109-sonst3_215_/103-sonst5_219_/107-daughterst7_1123_/1011-daughterst4_217_/105-name_8147_//@persons.68035-familiesInverset1_4335_/1013"/>
+    </rightLinkEnd>
+    <leftLinkEnd name="Male" type="Male">
+      <traceElement href="results\jtl\persons32.xmi#ASPid_8_//@persons.6-name_8036_//@persons.68035-birthday_8038_//@persons.68037-personsInverset1_8034_//@persons.68033"/>
+    </leftLinkEnd>
+  </traceLinks>
+  <traceLinks name="Male.birthday_2020" id="2020" isPartial="true">
+    <leftLinkEnd name="Male.birthday" type="birthday">
+      <traceElement href="results\jtl\persons32.xmi#ASPid_2_//@persons.0-name_2018_//@persons.02017-birthday_2020_//@persons.02019-personsInverset1_2016_//@persons.02015"/>
+    </leftLinkEnd>
+  </traceLinks>
+  <traceLinks name="Male.birthday_3026" id="3026" isPartial="true">
+    <leftLinkEnd name="Male.birthday" type="birthday">
+      <traceElement href="results\jtl\persons32.xmi#ASPid_3_//@persons.1-name_3024_//@persons.13023-birthday_3026_//@persons.13025-personsInverset1_3022_//@persons.13021"/>
+    </leftLinkEnd>
+  </traceLinks>
+  <traceLinks name="Female.birthday_4044" id="4044" isPartial="true">
+    <leftLinkEnd name="Female.birthday" type="birthday">
+      <traceElement href="results\jtl\persons32.xmi#ASPid_4_//@persons.2-name_4042_//@persons.24041-birthday_4044_//@persons.24043-personsInverset1_4040_//@persons.24039"/>
+    </leftLinkEnd>
+  </traceLinks>
+  <traceLinks name="Male.birthday_5032" id="5032" isPartial="true">
+    <leftLinkEnd name="Male.birthday" type="birthday">
+      <traceElement href="results\jtl\persons32.xmi#ASPid_5_//@persons.3-name_5030_//@persons.35029-birthday_5032_//@persons.35031-personsInverset1_5028_//@persons.35027"/>
+    </leftLinkEnd>
+  </traceLinks>
+  <traceLinks name="Female.birthday_6050" id="6050" isPartial="true">
+    <leftLinkEnd name="Female.birthday" type="birthday">
+      <traceElement href="results\jtl\persons32.xmi#ASPid_6_//@persons.4-name_6048_//@persons.46047-birthday_6050_//@persons.46049-personsInverset1_6046_//@persons.46045"/>
+    </leftLinkEnd>
+  </traceLinks>
+  <traceLinks name="Female.birthday_7056" id="7056" isPartial="true">
+    <leftLinkEnd name="Female.birthday" type="birthday">
+      <traceElement href="results\jtl\persons32.xmi#ASPid_7_//@persons.5-name_7054_//@persons.57053-birthday_7056_//@persons.57055-personsInverset1_7052_//@persons.57051"/>
+    </leftLinkEnd>
+  </traceLinks>
+  <traceLinks name="Male.birthday_8038" id="8038" isPartial="true">
+    <leftLinkEnd name="Male.birthday" type="birthday">
+      <traceElement href="results\jtl\persons32.xmi#ASPid_8_//@persons.6-name_8036_//@persons.68035-birthday_8038_//@persons.68037-personsInverset1_8034_//@persons.68033"/>
+    </leftLinkEnd>
+  </traceLinks>
+  <traceLinks name="PersonRegister.persons_102" id="102" isPartial="true">
+    <leftLinkEnd name="PersonRegister.persons" type="persons">
+      <traceElement href="results\jtl\persons32.xmi#ASPid_1_/-personst2_102_/101-personst3_104_/103-personst4_106_/105-personst5_108_/107-personst6_1010_/109-personst7_1012_/1011-personst8_1014_/1013"/>
+    </leftLinkEnd>
+  </traceLinks>
+  <traceLinks name="PersonRegister.persons_104" id="104" isPartial="true">
+    <leftLinkEnd name="PersonRegister.persons" type="persons">
+      <traceElement href="results\jtl\persons32.xmi#ASPid_1_/-personst2_102_/101-personst3_104_/103-personst4_106_/105-personst5_108_/107-personst6_1010_/109-personst7_1012_/1011-personst8_1014_/1013"/>
+    </leftLinkEnd>
+  </traceLinks>
+  <traceLinks name="PersonRegister.persons_106" id="106" isPartial="true">
+    <leftLinkEnd name="PersonRegister.persons" type="persons">
+      <traceElement href="results\jtl\persons32.xmi#ASPid_1_/-personst2_102_/101-personst3_104_/103-personst4_106_/105-personst5_108_/107-personst6_1010_/109-personst7_1012_/1011-personst8_1014_/1013"/>
+    </leftLinkEnd>
+  </traceLinks>
+  <traceLinks name="PersonRegister.persons_108" id="108" isPartial="true">
+    <leftLinkEnd name="PersonRegister.persons" type="persons">
+      <traceElement href="results\jtl\persons32.xmi#ASPid_1_/-personst2_102_/101-personst3_104_/103-personst4_106_/105-personst5_108_/107-personst6_1010_/109-personst7_1012_/1011-personst8_1014_/1013"/>
+    </leftLinkEnd>
+  </traceLinks>
+  <traceLinks name="PersonRegister.persons_1010" id="1010" isPartial="true">
+    <leftLinkEnd name="PersonRegister.persons" type="persons">
+      <traceElement href="results\jtl\persons32.xmi#ASPid_1_/-personst2_102_/101-personst3_104_/103-personst4_106_/105-personst5_108_/107-personst6_1010_/109-personst7_1012_/1011-personst8_1014_/1013"/>
+    </leftLinkEnd>
+  </traceLinks>
+  <traceLinks name="PersonRegister.persons_1012" id="1012" isPartial="true">
+    <leftLinkEnd name="PersonRegister.persons" type="persons">
+      <traceElement href="results\jtl\persons32.xmi#ASPid_1_/-personst2_102_/101-personst3_104_/103-personst4_106_/105-personst5_108_/107-personst6_1010_/109-personst7_1012_/1011-personst8_1014_/1013"/>
+    </leftLinkEnd>
+  </traceLinks>
+  <traceLinks name="PersonRegister.persons_1014" id="1014" isPartial="true">
+    <leftLinkEnd name="PersonRegister.persons" type="persons">
+      <traceElement href="results\jtl\persons32.xmi#ASPid_1_/-personst2_102_/101-personst3_104_/103-personst4_106_/105-personst5_108_/107-personst6_1010_/109-personst7_1012_/1011-personst8_1014_/1013"/>
+    </leftLinkEnd>
+  </traceLinks>
+  <traceLinks name="Male.personsInverse_2016" id="2016" isPartial="true">
+    <leftLinkEnd name="Male.personsInverse" type="personsInverse">
+      <traceElement href="results\jtl\persons32.xmi#ASPid_2_//@persons.0-name_2018_//@persons.02017-birthday_2020_//@persons.02019-personsInverset1_2016_//@persons.02015"/>
+    </leftLinkEnd>
+  </traceLinks>
+  <traceLinks name="Male.personsInverse_3022" id="3022" isPartial="true">
+    <leftLinkEnd name="Male.personsInverse" type="personsInverse">
+      <traceElement href="results\jtl\persons32.xmi#ASPid_3_//@persons.1-name_3024_//@persons.13023-birthday_3026_//@persons.13025-personsInverset1_3022_//@persons.13021"/>
+    </leftLinkEnd>
+  </traceLinks>
+  <traceLinks name="Female.personsInverse_4040" id="4040" isPartial="true">
+    <leftLinkEnd name="Female.personsInverse" type="personsInverse">
+      <traceElement href="results\jtl\persons32.xmi#ASPid_4_//@persons.2-name_4042_//@persons.24041-birthday_4044_//@persons.24043-personsInverset1_4040_//@persons.24039"/>
+    </leftLinkEnd>
+  </traceLinks>
+  <traceLinks name="Male.personsInverse_5028" id="5028" isPartial="true">
+    <leftLinkEnd name="Male.personsInverse" type="personsInverse">
+      <traceElement href="results\jtl\persons32.xmi#ASPid_5_//@persons.3-name_5030_//@persons.35029-birthday_5032_//@persons.35031-personsInverset1_5028_//@persons.35027"/>
+    </leftLinkEnd>
+  </traceLinks>
+  <traceLinks name="Female.personsInverse_6046" id="6046" isPartial="true">
+    <leftLinkEnd name="Female.personsInverse" type="personsInverse">
+      <traceElement href="results\jtl\persons32.xmi#ASPid_6_//@persons.4-name_6048_//@persons.46047-birthday_6050_//@persons.46049-personsInverset1_6046_//@persons.46045"/>
+    </leftLinkEnd>
+  </traceLinks>
+  <traceLinks name="Female.personsInverse_7052" id="7052" isPartial="true">
+    <leftLinkEnd name="Female.personsInverse" type="personsInverse">
+      <traceElement href="results\jtl\persons32.xmi#ASPid_7_//@persons.5-name_7054_//@persons.57053-birthday_7056_//@persons.57055-personsInverset1_7052_//@persons.57051"/>
+    </leftLinkEnd>
+  </traceLinks>
+  <traceLinks name="Male.personsInverse_8034" id="8034" isPartial="true">
+    <leftLinkEnd name="Male.personsInverse" type="personsInverse">
+      <traceElement href="results\jtl\persons32.xmi#ASPid_8_//@persons.6-name_8036_//@persons.68035-birthday_8038_//@persons.68037-personsInverset1_8034_//@persons.68033"/>
+    </leftLinkEnd>
+  </traceLinks>
+  <traceLinks name="Male_2" id="2" isNonInjective="true">
+    <leftLinkEnd name="Male" type="Male">
+      <traceElement href="results\jtl\persons32.xmi#ASPid_2_//@persons.0-name_2018_//@persons.02017-birthday_2020_//@persons.02019-personsInverset1_2016_//@persons.02015"/>
+    </leftLinkEnd>
+  </traceLinks>
+  <traceLinks name="Male_3" id="3" isNonInjective="true">
+    <leftLinkEnd name="Male" type="Male">
+      <traceElement href="results\jtl\persons32.xmi#ASPid_3_//@persons.1-name_3024_//@persons.13023-birthday_3026_//@persons.13025-personsInverset1_3022_//@persons.13021"/>
+    </leftLinkEnd>
+  </traceLinks>
+  <traceLinks name="Female_4" id="4" isNonInjective="true">
+    <leftLinkEnd name="Female" type="Female">
+      <traceElement href="results\jtl\persons32.xmi#ASPid_4_//@persons.2-name_4042_//@persons.24041-birthday_4044_//@persons.24043-personsInverset1_4040_//@persons.24039"/>
+    </leftLinkEnd>
+  </traceLinks>
+  <traceLinks name="Male_5" id="5" isNonInjective="true">
+    <leftLinkEnd name="Male" type="Male">
+      <traceElement href="results\jtl\persons32.xmi#ASPid_5_//@persons.3-name_5030_//@persons.35029-birthday_5032_//@persons.35031-personsInverset1_5028_//@persons.35027"/>
+    </leftLinkEnd>
+  </traceLinks>
+  <traceLinks name="Female_6" id="6" isNonInjective="true">
+    <leftLinkEnd name="Female" type="Female">
+      <traceElement href="results\jtl\persons32.xmi#ASPid_6_//@persons.4-name_6048_//@persons.46047-birthday_6050_//@persons.46049-personsInverset1_6046_//@persons.46045"/>
+    </leftLinkEnd>
+  </traceLinks>
+  <traceLinks name="Female_7" id="7" isNonInjective="true">
+    <leftLinkEnd name="Female" type="Female">
+      <traceElement href="results\jtl\persons32.xmi#ASPid_7_//@persons.5-name_7054_//@persons.57053-birthday_7056_//@persons.57055-personsInverset1_7052_//@persons.57051"/>
+    </leftLinkEnd>
+  </traceLinks>
+  <traceLinks name="Male_8" id="8" isNonInjective="true">
+    <leftLinkEnd name="Male" type="Male">
+      <traceElement href="results\jtl\persons32.xmi#ASPid_8_//@persons.6-name_8036_//@persons.68035-birthday_8038_//@persons.68037-personsInverset1_8034_//@persons.68033"/>
+    </leftLinkEnd>
+  </traceLinks>
+  <traceLinks name="Male.name_2018" id="2018" isNonInjective="true">
+    <leftLinkEnd name="Male.name" type="name">
+      <traceElement href="results\jtl\persons32.xmi#ASPid_2_//@persons.0-name_2018_//@persons.02017-birthday_2020_//@persons.02019-personsInverset1_2016_//@persons.02015"/>
+    </leftLinkEnd>
+  </traceLinks>
+  <traceLinks name="Male.birthday_2020" id="2020" isNonInjective="true">
+    <leftLinkEnd name="Male.birthday" type="birthday">
+      <traceElement href="results\jtl\persons32.xmi#ASPid_2_//@persons.0-name_2018_//@persons.02017-birthday_2020_//@persons.02019-personsInverset1_2016_//@persons.02015"/>
+    </leftLinkEnd>
+  </traceLinks>
+  <traceLinks name="Male.name_3024" id="3024" isNonInjective="true">
+    <leftLinkEnd name="Male.name" type="name">
+      <traceElement href="results\jtl\persons32.xmi#ASPid_3_//@persons.1-name_3024_//@persons.13023-birthday_3026_//@persons.13025-personsInverset1_3022_//@persons.13021"/>
+    </leftLinkEnd>
+  </traceLinks>
+  <traceLinks name="Male.birthday_3026" id="3026" isNonInjective="true">
+    <leftLinkEnd name="Male.birthday" type="birthday">
+      <traceElement href="results\jtl\persons32.xmi#ASPid_3_//@persons.1-name_3024_//@persons.13023-birthday_3026_//@persons.13025-personsInverset1_3022_//@persons.13021"/>
+    </leftLinkEnd>
+  </traceLinks>
+  <traceLinks name="Female.name_4042" id="4042" isNonInjective="true">
+    <leftLinkEnd name="Female.name" type="name">
+      <traceElement href="results\jtl\persons32.xmi#ASPid_4_//@persons.2-name_4042_//@persons.24041-birthday_4044_//@persons.24043-personsInverset1_4040_//@persons.24039"/>
+    </leftLinkEnd>
+  </traceLinks>
+  <traceLinks name="Female.birthday_4044" id="4044" isNonInjective="true">
+    <leftLinkEnd name="Female.birthday" type="birthday">
+      <traceElement href="results\jtl\persons32.xmi#ASPid_4_//@persons.2-name_4042_//@persons.24041-birthday_4044_//@persons.24043-personsInverset1_4040_//@persons.24039"/>
+    </leftLinkEnd>
+  </traceLinks>
+  <traceLinks name="Male.name_5030" id="5030" isNonInjective="true">
+    <leftLinkEnd name="Male.name" type="name">
+      <traceElement href="results\jtl\persons32.xmi#ASPid_5_//@persons.3-name_5030_//@persons.35029-birthday_5032_//@persons.35031-personsInverset1_5028_//@persons.35027"/>
+    </leftLinkEnd>
+  </traceLinks>
+  <traceLinks name="Male.birthday_5032" id="5032" isNonInjective="true">
+    <leftLinkEnd name="Male.birthday" type="birthday">
+      <traceElement href="results\jtl\persons32.xmi#ASPid_5_//@persons.3-name_5030_//@persons.35029-birthday_5032_//@persons.35031-personsInverset1_5028_//@persons.35027"/>
+    </leftLinkEnd>
+  </traceLinks>
+  <traceLinks name="Female.name_6048" id="6048" isNonInjective="true">
+    <leftLinkEnd name="Female.name" type="name">
+      <traceElement href="results\jtl\persons32.xmi#ASPid_6_//@persons.4-name_6048_//@persons.46047-birthday_6050_//@persons.46049-personsInverset1_6046_//@persons.46045"/>
+    </leftLinkEnd>
+  </traceLinks>
+  <traceLinks name="Female.birthday_6050" id="6050" isNonInjective="true">
+    <leftLinkEnd name="Female.birthday" type="birthday">
+      <traceElement href="results\jtl\persons32.xmi#ASPid_6_//@persons.4-name_6048_//@persons.46047-birthday_6050_//@persons.46049-personsInverset1_6046_//@persons.46045"/>
+    </leftLinkEnd>
+  </traceLinks>
+  <traceLinks name="Female.name_7054" id="7054" isNonInjective="true">
+    <leftLinkEnd name="Female.name" type="name">
+      <traceElement href="results\jtl\persons32.xmi#ASPid_7_//@persons.5-name_7054_//@persons.57053-birthday_7056_//@persons.57055-personsInverset1_7052_//@persons.57051"/>
+    </leftLinkEnd>
+  </traceLinks>
+  <traceLinks name="Female.birthday_7056" id="7056" isNonInjective="true">
+    <leftLinkEnd name="Female.birthday" type="birthday">
+      <traceElement href="results\jtl\persons32.xmi#ASPid_7_//@persons.5-name_7054_//@persons.57053-birthday_7056_//@persons.57055-personsInverset1_7052_//@persons.57051"/>
+    </leftLinkEnd>
+  </traceLinks>
+  <traceLinks name="Male.name_8036" id="8036" isNonInjective="true">
+    <leftLinkEnd name="Male.name" type="name">
+      <traceElement href="results\jtl\persons32.xmi#ASPid_8_//@persons.6-name_8036_//@persons.68035-birthday_8038_//@persons.68037-personsInverset1_8034_//@persons.68033"/>
+    </leftLinkEnd>
+  </traceLinks>
+  <traceLinks name="Male.birthday_8038" id="8038" isNonInjective="true">
+    <leftLinkEnd name="Male.birthday" type="birthday">
+      <traceElement href="results\jtl\persons32.xmi#ASPid_8_//@persons.6-name_8036_//@persons.68035-birthday_8038_//@persons.68037-personsInverset1_8034_//@persons.68033"/>
+    </leftLinkEnd>
+  </traceLinks>
+</TraceMetamodel:TraceModel>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<TraceMetamodel:TraceModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TraceMetamodel="TraceMetamodel" name="persons170">
+  <traceLinks name="FamilyRegister2PersonRegister_1" trule="FamilyRegister2PersonRegister" id="1">
+    <rightLinkEnd name="PersonRegister" type="PersonRegister">
+      <traceElement href="results\jtl\target\persons17.xmi#ASPid_1_/"/>
+    </rightLinkEnd>
+    <leftLinkEnd name="FamilyRegister" type="FamilyRegister">
+      <traceElement href="results\jtl\families17.xmi#ASPid_1_/-familiest2_102_/101"/>
+    </leftLinkEnd>
+  </traceLinks>
+  <traceLinks name="Family_2" id="2" isPartial="true">
+    <leftLinkEnd name="Family" type="Family">
+      <traceElement href="results\jtl\families17.xmi#ASPid_2_//@families.0-name_206_//@families.0205-familiesInverset1_204_//@families.0203"/>
+    </leftLinkEnd>
+  </traceLinks>
+  <traceLinks name="Family.name_206" id="206" isPartial="true">
+    <leftLinkEnd name="Family.name" type="name">
+      <traceElement href="results\jtl\families17.xmi#ASPid_2_//@families.0-name_206_//@families.0205-familiesInverset1_204_//@families.0203"/>
+    </leftLinkEnd>
+  </traceLinks>
+  <traceLinks name="FamilyRegister.families_102" id="102" isPartial="true">
+    <leftLinkEnd name="FamilyRegister.families" type="families">
+      <traceElement href="results\jtl\families17.xmi#ASPid_1_/-familiest2_102_/101"/>
+    </leftLinkEnd>
+  </traceLinks>
+  <traceLinks name="Family.familiesInverse_204" id="204" isPartial="true">
+    <leftLinkEnd name="Family.familiesInverse" type="familiesInverse">
+      <traceElement href="results\jtl\families17.xmi#ASPid_2_//@families.0-name_206_//@families.0205-familiesInverset1_204_//@families.0203"/>
+    </leftLinkEnd>
+  </traceLinks>
+</TraceMetamodel:TraceModel>

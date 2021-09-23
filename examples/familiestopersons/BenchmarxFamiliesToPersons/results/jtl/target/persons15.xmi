@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Persons:PersonRegister xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Persons="platform:/plugin/Persons/model/Persons.ecore" xsi:schemaLocation="platform:/plugin/Persons/model/Persons.ecore ..\metamodels\Persons\model\Persons.ecore" xmi:id="ASPid_1_/-personst14_702_//@families.3701-personst13_7124_//@families.37012-personst12_7122_//@families.37010-personst6_4240_//@families.24017-personst5_3234_//@families.13011-personst11_820_//@families.3708-personst9_818_//@families.3706-personst8_816_//@families.3704">
+  <persons xsi:type="Persons:Male" xmi:id="ASPid_14_//@families.0/@sons.1-name_1406_//@families.0/@sons.11405-personsInverset1_3912_//@families.3701" name="Simpson, Bart"/>
+  <persons xsi:type="Persons:Female" xmi:id="ASPid_13_//@families.3/@daughters.1-name_13037_//@families.3/@daughters.113036-personsInverset1_10334_//@families.37012" name="Simpson, Maggie"/>
+  <persons xsi:type="Persons:Female" xmi:id="ASPid_12_//@families.3/@daughters.0-name_12033_//@families.3/@daughters.012032-personsInverset1_10332_//@families.37010" name="Simpson, Lisa"/>
+  <persons xsi:type="Persons:Male" xmi:id="ASPid_6_//@families.2/@father-name_6030_//@families.2/@father6029-personsInverset1_7450_//@families.24017" name="Simpson, Bart"/>
+  <persons xsi:type="Persons:Male" xmi:id="ASPid_5_//@families.1/@sons.0-name_5026_//@families.1/@sons.05025-personsInverset1_6444_//@families.13011" name="Flanders, Rod"/>
+  <persons xsi:type="Persons:Male" xmi:id="ASPid_11_//@families.3/@sons.0-name_11029_//@families.3/@sons.011028-personsInverset1_4030_//@families.3708" name="Simpson, Bart"/>
+  <persons xsi:type="Persons:Female" xmi:id="ASPid_9_//@families.3/@mother-name_9025_//@families.3/@mother9024-personsInverset1_4028_//@families.3706" name="Simpson, Marge"/>
+  <persons xsi:type="Persons:Male" xmi:id="ASPid_8_//@families.3/@father-name_8021_//@families.3/@father8020-personsInverset1_4026_//@families.3704" name="Simpson, Homer"/>
+</Persons:PersonRegister>

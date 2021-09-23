@@ -14,6 +14,7 @@ import org.benchmarx.examples.familiestopersons.implementations.jtl.JTLFamiliesT
 import org.benchmarx.examples.familiestopersons.implementations.medini.MediniQVTFamiliesToPersons;
 import org.benchmarx.examples.familiestopersons.implementations.medini.MediniQVTFamiliesToPersonsConfig;
 import org.benchmarx.examples.familiestopersons.implementations.nmf.NMFFamiliesToPersonsIncremental;
+import org.benchmarx.examples.familiestopersons.implementations.vitruvius.VitruviusFamiliesToPersons;
 import org.benchmarx.families.core.FamiliesComparator;
 import org.benchmarx.families.core.FamilyHelper;
 import org.benchmarx.persons.core.PersonHelper;
@@ -68,21 +69,23 @@ public abstract class FamiliesToPersonsTestCase {
 		return Arrays.asList(
 //				new BiGULFamiliesToPersons()  // Currently 9 failures
 //				,
-				new EMoflonFamiliesToPersons()  // Currently 6 failures
-				,
-				new MediniQVTFamiliesToPersons() // Currently 19 failures
-				,
-				new MediniQVTFamiliesToPersonsConfig() // Currently 12 failures
-				,
-				new UbtXtendFamiliesToPersons()  // Currently 0 failures
-				,
-				new FunnyQTFamiliesToPerson() // Currently 10 failures
-				,
-//				new NMFFamiliesToPersonsIncremental() // Currently 3 failures
+//				new EMoflonFamiliesToPersons()  // Currently 6 failures
 //				,
-				new IBeXTGGFamiliesToPersons() // Currently 5 failures
-				,
-				new JTLFamiliesToPersons() // Currently 11 failures
+//				new MediniQVTFamiliesToPersons() // Currently 19 failures
+//				,
+//				new MediniQVTFamiliesToPersonsConfig() // Currently 12 failures
+//				,
+//				new UbtXtendFamiliesToPersons()  // Currently 0 failures
+//				,
+////				new FunnyQTFamiliesToPerson() // Currently 10 failures
+////				,
+////				new NMFFamiliesToPersonsIncremental() // Currently 3 failures
+////				,
+//				new IBeXTGGFamiliesToPersons() // Currently 5 failures
+//				,
+//				new JTLFamiliesToPersons() // Currently 11 failures
+//				,
+				new VitruviusFamiliesToPersons() // Currently 11 failures
 			);
 	}
 

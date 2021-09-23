@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Persons:PersonRegister xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Persons="platform:/plugin/Persons/model/Persons.ecore" xsi:schemaLocation="platform:/plugin/Persons/model/Persons.ecore ..\metamodels\Persons\model\Persons.ecore" xmi:id="ASPid_1_/-personst2_102_/101-personst3_104_/103-personst4_106_/105">
+  <persons xsi:type="Persons:Male" xmi:id="ASPid_2_//@persons.0-name_2010_//@persons.0209-birthday_2012_//@persons.02011-personsInverset1_208_//@persons.0207" name="Flanders, Rod"/>
+  <persons xsi:type="Persons:Male" xmi:id="ASPid_3_//@persons.1-name_3016_//@persons.13015-birthday_3018_//@persons.13017-personsInverset1_3014_//@persons.13013" name="Simpson, Homer"/>
+  <persons xsi:type="Persons:Female" xmi:id="ASPid_4_//@persons.2-name_4022_//@persons.24021-birthday_4024_//@persons.24023-personsInverset1_4020_//@persons.24019" name="Simpson, Marge"/>
+</Persons:PersonRegister>

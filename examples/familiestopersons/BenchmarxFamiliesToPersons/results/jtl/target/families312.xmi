@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Families:FamilyRegister xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Families="platform:/plugin/Families/model/Families.ecore" xsi:schemaLocation="platform:/plugin/Families/model/Families.ecore ..\metamodels\Families\model\Families.ecore" xmi:id="ASPid_1_/-familiest117_1121_/109">
+  <families xmi:id="ASPid_117_//@persons.4-fathert6_1121_/109-mothert3_215_/103-sonst5_219_/107-daughterst4_217_/105-daughterst2_213_/101-daughterst7_1123_/1011-daughterst8_1125_/1013-name_6133_//@persons.46021-familiesInverset1_4331_/109" name="Simpson">
+    <father xmi:id="ASPid_6_//@persons.4-name_6022_//@persons.46021-fatherInverset117_4331_/109" name="Bart"/>
+    <mother xmi:id="ASPid_3_//@persons.1-name_3032_//@persons.13031-motherInverset117_3425_/103" name="Marge"/>
+    <sons xmi:id="ASPid_5_//@persons.3-name_5018_//@persons.35017-sonsInverset117_3429_/107" name="Homer"/>
+    <daughters xmi:id="ASPid_4_//@persons.2-name_4036_//@persons.24035-daughtersInverset117_3427_/105" name="Lisa"/>
+    <daughters xmi:id="ASPid_2_//@persons.0-name_2026_//@persons.02025-daughtersInverset117_3423_/101" name="Maggie"/>
+    <daughters xmi:id="ASPid_7_//@persons.5-name_7040_//@persons.57039-daughtersInverset117_4333_/1011" name="Maggie"/>
+    <daughters xmi:id="ASPid_8_//@persons.6-name_8044_//@persons.68043-daughtersInverset117_4335_/1013" name="Lisa"/>
+  </families>
+</Families:FamilyRegister>

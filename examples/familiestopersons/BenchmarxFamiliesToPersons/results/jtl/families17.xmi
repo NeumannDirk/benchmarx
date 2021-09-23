@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Families:FamilyRegister xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Families="platform:/plugin/Families/model/Families.ecore" xsi:schemaLocation="platform:/plugin/Families/model/Families.ecore ..\metamodels\Families\model\Families.ecore" xmi:id="ASPid_1_/-familiest2_102_/101">
+  <families xmi:id="ASPid_2_//@families.0-name_206_//@families.0205-familiesInverset1_204_//@families.0203" name="Skinner"/>
+</Families:FamilyRegister>

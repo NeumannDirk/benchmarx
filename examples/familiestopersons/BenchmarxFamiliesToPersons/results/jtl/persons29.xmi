@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Persons:PersonRegister xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Persons="platform:/plugin/Persons/model/Persons.ecore" xsi:schemaLocation="platform:/plugin/Persons/model/Persons.ecore ..\metamodels\Persons\model\Persons.ecore" xmi:id="ASPid_1_/-personst2_102_/101-personst3_104_/103-personst4_106_/105-personst5_108_/107">
+  <persons xsi:type="Persons:Male" xmi:id="ASPid_2_//@persons.0-name_2012_//@persons.02011-birthday_2014_//@persons.02013-personsInverset1_2010_//@persons.0209" name="Simpson, Homer"/>
+  <persons xsi:type="Persons:Female" xmi:id="ASPid_3_//@persons.1-name_3026_//@persons.13025-birthday_3028_//@persons.13027-personsInverset1_3024_//@persons.13023" name="Simpson, Maggie"/>
+  <persons xsi:type="Persons:Male" xmi:id="ASPid_4_//@persons.2-name_4018_//@persons.24017-personsInverset1_4016_//@persons.24015" name="Skinner, Seymour"/>
+  <persons xsi:type="Persons:Male" xmi:id="ASPid_5_//@persons.3-name_5022_//@persons.35021-personsInverset1_5020_//@persons.35019" name="Skinner, Seymour"/>
+</Persons:PersonRegister>

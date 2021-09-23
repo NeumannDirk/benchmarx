@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Families:FamilyRegister xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Families="platform:/plugin/Families/model/Families.ecore" xsi:schemaLocation="platform:/plugin/Families/model/Families.ecore ..\metamodels\Families\model\Families.ecore" xmi:id="ASPid_1_/-familiest113_213_/101-familiest120_1127_/1015-familiest119_1125_/1013-familiest118_1123_/1011-familiest117_1121_/109-familiest116_219_/107-familiest115_217_/105-familiest114_215_/103">
+  <families xmi:id="ASPid_113_//@persons.0-fathert2_213_/101-name_2131_//@persons.02019-familiesInverset1_3423_/101" name="Flanders">
+    <father xmi:id="ASPid_2_//@persons.0-name_2020_//@persons.02019-fatherInverset113_3423_/101" name="Rod"/>
+  </families>
+  <families xmi:id="ASPid_120_//@persons.7-mothert9_1127_/1015-name_9159_//@persons.79047-familiesInverset1_4337_/1015" name="Simpson">
+    <mother xmi:id="ASPid_9_//@persons.7-name_9048_//@persons.79047-motherInverset120_4337_/1015" name="Maggie"/>
+  </families>
+  <families xmi:id="ASPid_119_//@persons.6-mothert8_1125_/1013-name_8155_//@persons.68043-familiesInverset1_4335_/1013" name="Simpson">
+    <mother xmi:id="ASPid_8_//@persons.6-name_8044_//@persons.68043-motherInverset119_4335_/1013" name="Lisa"/>
+  </families>
+  <families xmi:id="ASPid_118_//@persons.5-mothert7_1123_/1011-name_7151_//@persons.57039-familiesInverset1_4333_/1011" name="Simpson">
+    <mother xmi:id="ASPid_7_//@persons.5-name_7040_//@persons.57039-motherInverset118_4333_/1011" name="Marge"/>
+  </families>
+  <families xmi:id="ASPid_117_//@persons.4-fathert6_1121_/109-name_6147_//@persons.46035-familiesInverset1_4331_/109" name="Simpson">
+    <father xmi:id="ASPid_6_//@persons.4-name_6036_//@persons.46035-fatherInverset117_4331_/109" name="Bart"/>
+  </families>
+  <families xmi:id="ASPid_116_//@persons.3-fathert5_219_/107-name_5143_//@persons.35031-familiesInverset1_3429_/107" name="Simpson">
+    <father xmi:id="ASPid_5_//@persons.3-name_5032_//@persons.35031-fatherInverset116_3429_/107" name="Bart"/>
+  </families>
+  <families xmi:id="ASPid_115_//@persons.2-fathert4_217_/105-name_4139_//@persons.24027-familiesInverset1_3427_/105" name="Simpson">
+    <father xmi:id="ASPid_4_//@persons.2-name_4028_//@persons.24027-fatherInverset115_3427_/105" name="Homer"/>
+  </families>
+  <families xmi:id="ASPid_114_//@persons.1-fathert3_215_/103-name_3135_//@persons.13023-familiesInverset1_3425_/103" name="Simpson">
+    <father xmi:id="ASPid_3_//@persons.1-name_3024_//@persons.13023-fatherInverset114_3425_/103" name="Bart"/>
+  </families>
+</Families:FamilyRegister>

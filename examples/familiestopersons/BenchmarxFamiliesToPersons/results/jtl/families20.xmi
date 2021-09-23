@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Families:FamilyRegister xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Families="platform:/plugin/Families/model/Families.ecore" xsi:schemaLocation="platform:/plugin/Families/model/Families.ecore ..\metamodels\Families\model\Families.ecore" xmi:id="ASPid_1_/-familiest2_102_/101">
+  <families xmi:id="ASPid_2_//@families.0-sonst3_204_//@families.0203-name_208_//@families.0207-familiesInverset1_206_//@families.0205" name="Flanders">
+    <sons xmi:id="ASPid_3_//@families.0/@sons.0-name_3012_//@families.0/@sons.03011-sonsInverset2_3010_//@families.0/@sons.0309" name="Rod"/>
+  </families>
+</Families:FamilyRegister>

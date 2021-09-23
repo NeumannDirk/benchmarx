@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Families:FamilyRegister xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Families="platform:/plugin/Families/model/Families.ecore" xsi:schemaLocation="platform:/plugin/Families/model/Families.ecore ..\metamodels\Families\model\Families.ecore" xmi:id="ASPid_1_/-familiest114_215_/103">
+  <families xmi:id="ASPid_114_//@persons.1-sonst3_215_/103-daughterst2_213_/101-name_419_//@persons.1307-familiesInverset1_3425_/103" name="Simpson">
+    <sons xmi:id="ASPid_3_//@persons.1-name_308_//@persons.1307-sonsInverset114_3425_/103" name="Homer"/>
+    <daughters xmi:id="ASPid_2_//@persons.0-name_2012_//@persons.02011-daughtersInverset114_3423_/101" name="Maggie"/>
+  </families>
+</Families:FamilyRegister>

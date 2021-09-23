@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Persons:PersonRegister xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Persons="platform:/plugin/Persons/model/Persons.ecore" xsi:schemaLocation="platform:/plugin/Persons/model/Persons.ecore ..\metamodels\Persons\model\Persons.ecore" xmi:id="ASPid_1_/-personst3_204_//@families.0203-personst8_2014_//@families.02013-personst7_2012_//@families.02011-personst6_2010_//@families.0209-personst5_208_//@families.0207-personst4_206_//@families.0205">
+  <persons xsi:type="Persons:Male" xmi:id="ASPid_3_//@families.0/@father-name_3022_//@families.0/@father3021-personsInverset1_3414_//@families.0203" name="Simpson, Homer"/>
+  <persons xsi:type="Persons:Female" xmi:id="ASPid_8_//@families.0/@daughters.1-name_8042_//@families.0/@daughters.18041-personsInverset1_5224_//@families.02013" name="Simpson, Maggie"/>
+  <persons xsi:type="Persons:Female" xmi:id="ASPid_7_//@families.0/@daughters.0-name_7038_//@families.0/@daughters.07037-personsInverset1_5222_//@families.02011" name="Simpson, Lisa"/>
+  <persons xsi:type="Persons:Male" xmi:id="ASPid_6_//@families.0/@sons.1-name_6034_//@families.0/@sons.16033-personsInverset1_5220_//@families.0209" name="Simpson, Bart"/>
+  <persons xsi:type="Persons:Male" xmi:id="ASPid_5_//@families.0/@sons.0-name_5030_//@families.0/@sons.05029-personsInverset1_3418_//@families.0207" name="Simpson, Bart"/>
+  <persons xsi:type="Persons:Female" xmi:id="ASPid_4_//@families.0/@mother-name_4026_//@families.0/@mother4025-personsInverset1_3416_//@families.0205" name="Simpson, Marge"/>
+</Persons:PersonRegister>

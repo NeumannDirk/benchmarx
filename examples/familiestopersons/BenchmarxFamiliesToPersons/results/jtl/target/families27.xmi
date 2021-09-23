@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Families:FamilyRegister xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Families="platform:/plugin/Families/model/Families.ecore" xsi:schemaLocation="platform:/plugin/Families/model/Families.ecore ..\metamodels\Families\model\Families.ecore" xmi:id="ASPid_1_/-familiest113_213_/101-familiest117_1121_/109-familiest116_219_/107-familiest115_217_/105-familiest114_215_/103">
+  <families xmi:id="ASPid_113_//@persons.0-fathert2_213_/101-name_2125_//@persons.02013-familiesInverset1_3423_/101" name="Simpson">
+    <father xmi:id="ASPid_2_//@persons.0-name_2014_//@persons.02013-fatherInverset113_3423_/101" name="Homer"/>
+  </families>
+  <families xmi:id="ASPid_117_//@persons.4-fathert6_1121_/109-name_6139_//@persons.46027-familiesInverset1_4331_/109" name="Skinner">
+    <father xmi:id="ASPid_6_//@persons.4-name_6028_//@persons.46027-fatherInverset117_4331_/109" name="Seymour"/>
+  </families>
+  <families xmi:id="ASPid_116_//@persons.3-fathert5_219_/107-name_5135_//@persons.35023-familiesInverset1_3429_/107" name="Skinner">
+    <father xmi:id="ASPid_5_//@persons.3-name_5024_//@persons.35023-fatherInverset116_3429_/107" name="Seymour"/>
+  </families>
+  <families xmi:id="ASPid_115_//@persons.2-fathert4_217_/105-name_4131_//@persons.24019-familiesInverset1_3427_/105" name="Skinner">
+    <father xmi:id="ASPid_4_//@persons.2-name_4020_//@persons.24019-fatherInverset115_3427_/105" name="Seymour"/>
+  </families>
+  <families xmi:id="ASPid_114_//@persons.1-mothert3_215_/103-name_3143_//@persons.13031-familiesInverset1_3425_/103" name="Simpson">
+    <mother xmi:id="ASPid_3_//@persons.1-name_3032_//@persons.13031-motherInverset114_3425_/103" name="Maggie"/>
+  </families>
+</Families:FamilyRegister>

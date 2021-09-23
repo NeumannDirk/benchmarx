@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Families:FamilyRegister xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Families="platform:/plugin/Families/model/Families.ecore" xsi:schemaLocation="platform:/plugin/Families/model/Families.ecore ..\metamodels\Families\model\Families.ecore" xmi:id="ASPid_1_/-familiest113_213_/101-familiest119_1125_/1013">
+  <families xmi:id="ASPid_113_//@persons.0-sonst2_213_/101-name_2131_//@persons.02019-familiesInverset1_3423_/101" name="Flanders">
+    <sons xmi:id="ASPid_2_//@persons.0-name_2020_//@persons.02019-sonsInverset113_3423_/101" name="Rod"/>
+  </families>
+  <families xmi:id="ASPid_119_//@persons.6-sonst5_219_/107-sonst4_217_/105-sonst3_215_/103-sonst6_1121_/109-daughterst9_1127_/1015-daughterst7_1123_/1011-daughterst8_1125_/1013-name_8155_//@persons.68043-familiesInverset1_4335_/1013" name="Simpson">
+    <sons xmi:id="ASPid_5_//@persons.3-name_5032_//@persons.35031-sonsInverset119_3429_/107" name="Bart"/>
+    <sons xmi:id="ASPid_4_//@persons.2-name_4028_//@persons.24027-sonsInverset119_3427_/105" name="Homer"/>
+    <sons xmi:id="ASPid_3_//@persons.1-name_3024_//@persons.13023-sonsInverset119_3425_/103" name="Bart"/>
+    <sons xmi:id="ASPid_6_//@persons.4-name_6036_//@persons.46035-sonsInverset119_4331_/109" name="Bart"/>
+    <daughters xmi:id="ASPid_9_//@persons.7-name_9048_//@persons.79047-daughtersInverset119_4337_/1015" name="Maggie"/>
+    <daughters xmi:id="ASPid_7_//@persons.5-name_7040_//@persons.57039-daughtersInverset119_4333_/1011" name="Marge"/>
+    <daughters xmi:id="ASPid_8_//@persons.6-name_8044_//@persons.68043-daughtersInverset119_4335_/1013" name="Lisa"/>
+  </families>
+</Families:FamilyRegister>

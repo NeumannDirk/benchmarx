@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Persons:PersonRegister xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Persons="platform:/plugin/Persons/model/Persons.ecore" xsi:schemaLocation="platform:/plugin/Persons/model/Persons.ecore ..\metamodels\Persons\model\Persons.ecore" xmi:id="ASPid_1_/-personst2_102_/101">
+  <persons xsi:type="Persons:Male" xmi:id="ASPid_2_//@persons.0-name_206_//@persons.0205-personsInverset1_204_//@persons.0203" name="Flanders, Rod"/>
+</Persons:PersonRegister>

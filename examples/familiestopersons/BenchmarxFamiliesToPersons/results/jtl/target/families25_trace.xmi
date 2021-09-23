@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<TraceMetamodel:TraceModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TraceMetamodel="TraceMetamodel" name="families250">
+  <traceLinks name="FamilyRegister2PersonRegister_1" trule="FamilyRegister2PersonRegister" id="1">
+    <rightLinkEnd name="FamilyRegister" type="FamilyRegister">
+      <traceElement href="results\jtl\target\families25.xmi#ASPid_1_/-familiest113_213_/101"/>
+    </rightLinkEnd>
+    <leftLinkEnd name="PersonRegister" type="PersonRegister">
+      <traceElement href="results\jtl\persons25.xmi#ASPid_1_/-personst2_102_/101"/>
+    </leftLinkEnd>
+  </traceLinks>
+  <traceLinks name="FamilyMember2Male_2" trule="FamilyMember2Male" id="2">
+    <rightLinkEnd name="Family.FamilyMember" type="FamilyMember">
+      <traceElement href="results\jtl\target\families25.xmi#ASPid_113_//@persons.0-sonst2_213_/101-name_317_//@persons.0205-familiesInverset1_3423_/101"/>
+    </rightLinkEnd>
+    <leftLinkEnd name="Male" type="Male">
+      <traceElement href="results\jtl\persons25.xmi#ASPid_2_//@persons.0-name_206_//@persons.0205-personsInverset1_204_//@persons.0203"/>
+    </leftLinkEnd>
+  </traceLinks>
+  <traceLinks name="PersonRegister.persons_102" id="102" isPartial="true">
+    <leftLinkEnd name="PersonRegister.persons" type="persons">
+      <traceElement href="results\jtl\persons25.xmi#ASPid_1_/-personst2_102_/101"/>
+    </leftLinkEnd>
+  </traceLinks>
+  <traceLinks name="Male.personsInverse_204" id="204" isPartial="true">
+    <leftLinkEnd name="Male.personsInverse" type="personsInverse">
+      <traceElement href="results\jtl\persons25.xmi#ASPid_2_//@persons.0-name_206_//@persons.0205-personsInverset1_204_//@persons.0203"/>
+    </leftLinkEnd>
+  </traceLinks>
+  <traceLinks name="Male_2" id="2" isNonInjective="true">
+    <leftLinkEnd name="Male" type="Male">
+      <traceElement href="results\jtl\persons25.xmi#ASPid_2_//@persons.0-name_206_//@persons.0205-personsInverset1_204_//@persons.0203"/>
+    </leftLinkEnd>
+  </traceLinks>
+  <traceLinks name="Male.name_206" id="206" isNonInjective="true">
+    <leftLinkEnd name="Male.name" type="name">
+      <traceElement href="results\jtl\persons25.xmi#ASPid_2_//@persons.0-name_206_//@persons.0205-personsInverset1_204_//@persons.0203"/>
+    </leftLinkEnd>
+  </traceLinks>
+</TraceMetamodel:TraceModel>

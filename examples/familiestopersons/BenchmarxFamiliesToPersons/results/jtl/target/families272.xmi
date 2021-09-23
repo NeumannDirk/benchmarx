@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Families:FamilyRegister xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Families="platform:/plugin/Families/model/Families.ecore" xsi:schemaLocation="platform:/plugin/Families/model/Families.ecore ..\metamodels\Families\model\Families.ecore" xmi:id="ASPid_1_/-familiest115_217_/105-familiest114_215_/103">
+  <families xmi:id="ASPid_115_//@persons.2-fathert4_217_/105-sonst5_219_/107-name_4129_//@persons.24017-familiesInverset1_3427_/105" name="Skinner">
+    <father xmi:id="ASPid_4_//@persons.2-name_4018_//@persons.24017-fatherInverset115_3427_/105" name="Seymour"/>
+    <sons xmi:id="ASPid_5_//@persons.3-name_5022_//@persons.35021-sonsInverset115_3429_/107" name="Seymour"/>
+  </families>
+  <families xmi:id="ASPid_114_//@persons.1-fathert2_213_/101-mothert3_215_/103-name_3137_//@persons.13025-familiesInverset1_3425_/103" name="Simpson">
+    <father xmi:id="ASPid_2_//@persons.0-name_2012_//@persons.02011-fatherInverset114_3423_/101" name="Homer"/>
+    <mother xmi:id="ASPid_3_//@persons.1-name_3026_//@persons.13025-motherInverset114_3425_/103" name="Maggie"/>
+  </families>
+</Families:FamilyRegister>
