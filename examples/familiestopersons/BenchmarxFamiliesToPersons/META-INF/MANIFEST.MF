@@ -9,5 +9,17 @@ Require-Bundle: org.eclipse.emf.ecore;bundle-version="2.11.2",
  org.eclipse.emf.common.source;bundle-version="2.11.1",
  org.apache.log4j;bundle-version="1.2.15",
  org.eclipse.core.runtime;bundle-version="3.12.0",
- Benchmarx;bundle-version="1.0.0"
+ Benchmarx;bundle-version="1.0.0",
+ tools.vitruv.framework.vsum;bundle-version="2.1.0"
 Automatic-Module-Name: BenchmarxFamiliesToPersons
+Import-Package: tools.vitruv.applications.demo.familiespersons.families2persons,
+ tools.vitruv.applications.demo.familiespersons.persons2families,
+ tools.vitruv.domains.demo.families,
+ tools.vitruv.domains.demo.persons,
+ tools.vitruv.framework.domains,
+ tools.vitruv.framework.domains.repository,
+ tools.vitruv.framework.propagation,
+ tools.vitruv.framework.userinteraction,
+ tools.vitruv.framework.vsum,
+ tools.vitruv.testutils,
+ tools.vitruv.testutils.domains

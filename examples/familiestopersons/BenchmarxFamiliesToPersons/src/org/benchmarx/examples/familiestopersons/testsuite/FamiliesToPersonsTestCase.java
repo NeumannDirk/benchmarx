@@ -85,7 +85,7 @@ public abstract class FamiliesToPersonsTestCase {
 //				,
 //				new JTLFamiliesToPersons() // Currently 11 failures
 //				,
-				new VitruviusFamiliesToPersons() // Currently 11 failures
+				new VitruviusFamiliesToPersons()
 			);
 	}
 

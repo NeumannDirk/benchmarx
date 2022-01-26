@@ -1,8 +1,7 @@
 package org.benchmarx.examples.familiestopersons.implementations.vitruvius;
 
-import java.lang.reflect.Member;
-import java.util.Iterator;
-import java.util.function.BiFunction;
+import java.io.File;
+import java.nio.file.Path;
 import java.util.function.Consumer;
 
 import org.benchmarx.Configurator;
@@ -12,15 +11,9 @@ import org.benchmarx.examples.familiestopersons.testsuite.Decisions;
 import org.benchmarx.families.core.FamiliesComparator;
 import org.benchmarx.persons.core.PersonsComparator;
 
-import Families.FamiliesFactory;
-import Families.Family;
 import Families.FamilyRegister;
-import Persons.Person;
 import Persons.PersonRegister;
-import Persons.PersonsFactory;
 
-//import mir.reactions.familiesToPersons;
-//import java.nio.file.Path;
 /**
  * This class implements the bx tool interface for the Vitruvius tool. Vitruvius is
  * delta-based and corr-based.
@@ -29,16 +22,12 @@ import Persons.PersonsFactory;
  */
 public class VitruviusFamiliesToPersons extends BXToolForEMF<FamilyRegister, PersonRegister, Decisions>{
 	
+	private BenchmarxApplicationTest benchmarxTest = new BenchmarxApplicationTest();
 	private FamilyRegister src;
 	private PersonRegister trg;
-	private String resultSrc;
-	private String resultTrg;
-	private FamiliesComparator srcHelper = new FamiliesComparator();
-	private PersonsComparator trgHelper = new PersonsComparator();
-
-//	static Path PERSONS_MODEL = DomainUtil.getModelFileName("model/persons", new PersonsDomainProvider())
-//	static Path FAMILIES_MODEL = DomainUtil.getModelFileName("model/families", new FamiliesDomainProvider())
-	
+//	private FamiliesComparator srcHelper = new FamiliesComparator();
+//	private PersonsComparator trgHelper = new PersonsComparator();
+	static int testCount = 0;
 	
 	@Override
 	public String getName() {
@@ -51,131 +40,84 @@ public class VitruviusFamiliesToPersons extends BXToolForEMF<FamilyRegister, Per
 	public VitruviusFamiliesToPersons(Comparator<FamilyRegister> src, Comparator<PersonRegister> trg) {
 		super(src, trg);
 	}
-
+	
 	@Override
-	public void initiateSynchronisationDialogue() {		
-		src = FamiliesFactory.eINSTANCE.createFamilyRegister();
-		trg = PersonsFactory.eINSTANCE.createPersonRegister();
-		resultSrc = srcHelper.familyToString(src);
-		resultTrg = trgHelper.personsToString(trg);
+	public void initiateSynchronisationDialogue() {
+		System.out.println("\n\n");
 		
-		int x = 0;
-		// TODO Auto-generated method stub
+		//TODO nur temporär
+	    Path vsumPath = new File("\\model\\vsum").toPath();
+	    Path testProjectPath = new File("\\model").toPath();
+//	    SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd_HH-mm-ss");  
+//	    Date date = new Date();  
+//	    String dateString = formatter.format(date);	  
+//	    @TestProject Path testProjectPath,
+//		@TestProject(variant="vsum") Path vsumPath
+//		Path vsumPath = new File("C:\\testModels\\" + dateString + "\\" + testCount + "\\vsum").toPath();
+//		Path testProjectPath = new File("C:\\testModels\\" + dateString + "\\" + testCount).toPath();		
+		//Path testProjectPath = Path.of(System.getProperty("user.dir") + "\\testModels\\" + dateString + "\\" + testCount);
 		
+		this.benchmarxTest.prepare(testProjectPath, vsumPath);
+		
+		this.setLocalRegisters();		
 	}
 
+	private void setLocalRegisters() {
+		this.src = this.benchmarxTest.getFamiliyRegister();
+		this.trg = this.benchmarxTest.getPersonRegister();		
+	}
+	private void printLocalRegisters() {
+		ModelPrinter.printFamilyRegister(src);
+		ModelPrinter.printPersonRegister(trg);
+		System.out.println("\n");
+	}
+	
 	@Override
 	public void performAndPropagateSourceEdit(Consumer<FamilyRegister> edit) {		
-		edit.accept(src);	
-		//this.<FamilyRegister>propagate(src, edit);
-		
-		
-		printFamilyRegister(src);
-		printPersonRegister(trg);
-		int x = 0;
+		System.out.println(testCount + ": Fam->Per");
+		testCount++;
+		this.benchmarxTest.performAndPropagateSourceEdit(edit);		
+		this.setLocalRegisters();
+		this.printLocalRegisters();
 	}
 	
-	public void printFamilyRegister(FamilyRegister freg) {
-		if(freg.getFamilies() == null || freg.getFamilies().size() == 0) {
-			System.out.println("Empty FamilyRegister.");
-			return;
-		}
-		for(int i = 0; i < freg.getFamilies().size(); i++) {
-			Family fam = freg.getFamilies().get(i);
-			System.out.println(fam.getName());
-			if(fam.getFather() != null) {
-				System.out.println("\tFather: " + fam.getFather().getName());				
-			}
-			if(fam.getMother() != null) {
-				System.out.println("\tMother: " + fam.getMother().getName());				
-			}
-			if(fam.getSons() != null && fam.getSons().size() > 0) {
-				System.out.print("\tSons:(");
-				for(int s = 0; s < fam.getSons().size(); s++) {
-					System.out.print(fam.getSons().get(s).getName());
-					if(s != fam.getSons().size() - 1) {
-						System.out.print(", ");
-					}
-				}
-				System.out.println(")");
-			}
-			if(fam.getDaughters() != null && fam.getDaughters().size() > 0) {
-				System.out.print("\tSons:(");
-				for(int d = 0; d < fam.getDaughters().size(); d++) {
-					System.out.print(fam.getDaughters().get(d).getName());
-					if(d != fam.getDaughters().size() - 1) {
-						System.out.print(", ");
-					}
-				}
-				System.out.println(")");
-			}
-		}		
-	}
-	
-	public void printPersonRegister(PersonRegister preg) {
-		if(preg.getPersons() == null || preg.getPersons().size() == 0) {
-			System.out.println("Empty PersonRegister.");
-			return;
-		}
-		for(int i = 0; i < preg.getPersons().size(); i++) {
-			Person p = preg.getPersons().get(i);
-			String pn = p.getName();
-			if(p.getBirthday() != null) {
-				System.out.println(pn + "(" + p.getBirthday().toString() + ")");
-			}
-			else {
-				System.out.println(pn + "(-)");
-			}
-		}		
-	}
-
 	@Override
 	public void performAndPropagateTargetEdit(Consumer<PersonRegister> edit) {
-		int x = 0;
-		// TODO Auto-generated method stub
-		
+		System.out.println(testCount + ": Per->Fam");
+		testCount++;
+		this.benchmarxTest.performAndPropagateTargetEdit(edit);		
+		this.setLocalRegisters();
+		this.printLocalRegisters();
 	}
-
+	
 	@Override
 	public void performIdleSourceEdit(Consumer<FamilyRegister> edit) {
-		int x = 0;
-		// TODO Auto-generated method stub
-		
+		// TODO Auto-generated method stub		
 	}
 
 	@Override
 	public void performIdleTargetEdit(Consumer<PersonRegister> edit) {
-		int x = 0;
-		// TODO Auto-generated method stub
-		
+		// TODO Auto-generated method stub		
 	}
 
 	@Override
 	public void setConfigurator(Configurator<Decisions> configurator) {
-		int x = 0;
-		// TODO Auto-generated method stub
-		
+		this.benchmarxTest.setConfigurator(configurator);
+		// TODO Auto-generated method stub		
 	}
 
 	@Override
 	public FamilyRegister getSourceModel() {
-		int x = 0;
-		// TODO Auto-generated method stub
-		return null;
+		return this.benchmarxTest.getFamiliyRegister();
 	}
 
 	@Override
 	public PersonRegister getTargetModel() {
-		int x = 0;
-		// TODO Auto-generated method stub
-		return null;
+		return this.benchmarxTest.getPersonRegister();
 	}
 
 	@Override
 	public void saveModels(String name) {
-		int x = 0;
-		// TODO Auto-generated method stub
-		
+		this.benchmarxTest.endTest();	
 	}
-
 }
